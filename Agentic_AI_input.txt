@@ -1,0 +1,53 @@
+Analyse and tell if the 'Product Launch' for CDF is approved based on below inputs:
+
+
+APPROVAL STEP 1: BUSINESS CASE PREPARATION & Country Pricing Strategy
+
+Primary Research for Pricing strategy: COMPLETED
+Price Points, HCP trialist, Affordable patients, patient share, No of patients. Is above step 'Primary Research for Pricing strategy' is also COMPLETED: COMPLETED. 
+
+Country level: APPROVED
+Region level:  NOT APPROVED
+Global level:  APPROVED
+
+
+APPROVAL STEP 2: HA - COUNTRY HEALTH AUTHORITY APPROVAL
+
+Phase III trial: 	COMPLETED
+APPROVAL from EU/USFDA: COMPLETED
+Medical Rationale - is Unmet need is specified, value proposition of the molecule is stated and APPROVED by Country Medical Officer: COMPLETED 
+Site registration - Manufacturing unit from Germany set up/ process are done: COMPLETED
+Dosier creation - when the above steps are also COMPLETED - Medical rationale, Phase III trial, unmet need, approval by EU/USFDA: NOT COMPLETED
+SEC meeting with HA HCPs should approve molecule proposal with medical rationale.: APPROVED
+Phase IV trial required in case India patients are not there in phase III trial USFDA & EU approval for molecule.: REQUIRED if India patients are not there in phase III trial USFDA & EU approval else NOT-REQUIRED.
+
+
+
+APPROVAL STEP 3: Packaging
+
+Country level: NOT APPROVED
+Region level: APPROVED
+Global level: APPROVED
+
+
+
+APPROVAL STEP 4: Supply & Chain
+
+Stock availability India C&F: NOT COMPLETED
+Stockist/Site registration: COMPLETED
+Transit to local stockist: COMPLETED
+Payment by stockist/C&F: NOT COMPLETED
+
+
+APPROVAL STEP 5: Prelaunch ( Parallel Step)
+
+Primary Research: Understand Adoption ladder: NOT COMPLETED
+Understanding patient funnel: COMPLETED
+Unaided awareness for therapy & molecule: COMPLETED
+Market potential: State/city wise: COMPLETED
+MSL deployment: COMPLETED
+MSL list: COMPLETED
+FF recruitment: COMPLETED
+Training & development: COMPLETED
+Prelaunch Initiatives: Teasers of DSA: COMPLETED
+
