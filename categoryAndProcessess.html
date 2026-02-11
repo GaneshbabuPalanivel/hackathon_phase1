@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<style>
+    .div {
+        display: none;
+    }
+
+    .show {
+        display: block;
+    }
+</style>
+
+<script>
+    var buttons = document.getElementsByTagName('button'),
+        questions = document.getElementsByTagName('div');
+    for (var i = 0; i < buttons.length; i++) {
+        var button = buttons[i];
+        console.log("check=====")
+        button.addEventListener('click', function () {
+            var target = this.getAttribute('data-next');
+            for (var j = 0; j < questions.length; j++) {
+                var question = questions[j];
+                if (question.id == target) {
+                    question.classList.add('show');
+                } else if (question.classList.contains('show')) {
+                    question.classList.remove('show');
+                }
+            }
+        });
+    }
+</script>
+
+<div id="Question1" class="show">
+    (APPROVAL STEP 1) BUSINESS CASE PREPARATION & COUNTRY PRICING STRATEGY
+</br></br>Primary Research for Pricing strategy<button type="button" data-next="Question2">Yes</button>
+    <button type="button" data-next="Question3">No</button></br>
+Is Price Points, HCP trialist, Affordable patients, patient share, No of patients completed<button type="button" data-next="Question2">Yes</button>
+    <button type="button" data-next="Question3">No</button>
+    </br></br>
+    a.COUNTRY LEVEL</br>
+    </br>
+    i.total Revenues 2026 (value=7.6 million), 2027 (value=8 million)</br>
+    ii.Total Direct M&S Cost before reversals 2026 (value=4 million) 2027 (value=3 million)</br>
+    iii.Direct M&S Cost(MR-relevant) 2026 (value=4 million) 2027 (value=3 million)</br>
+    iv.Marketing Contribution before COGS 2026 (value=4 million) , 2027 (value=3 million)</br>
+    v.Strategic Product Charge(COGS) @30% 2026 (value=4 million) , 2027 (value=3 million)</br>
+    vi.Marketing Contribution after COGS 2026 (value=4 million) , 2027 (value=3 million)</br>
+      <button type="button" data-next="Question2">Yes</button>
+    <button type="button" data-next="Question3">No</button>
+    </br></br>
+    
+    b.REGION LEVEL</br>
+    </br>
+    i.total Revenues 2026 (value=7.6 million), 2027 (value=8 million)</br>
+    ii.Total Direct M&S Cost before reversals 2026 (value=4 million) 2027 (value=3 million)</br>
+    iii.Direct M&S Cost(MR-relevant) 2026 (value=4 million) 2027 (value=3 million)</br>
+    iv.Marketing Contribution before COGS 2026 (value=4 million) , 2027 (value=3 million)</br>
+    v.Strategic Product Charge(COGS) @30% 2026 (value=4 million) , 2027 (value=3 million)</br>
+    vi.Marketing Contribution after COGS 2026 (value=4 million) , 2027 (value=3 million)</br>
+   <button type="button" data-next="Question2">Yes</button>
+    <button type="button" data-next="Question3">No</button>
+    </br></br>
+    c.GLOBAL LEVEL</br></br>
+    i.total Revenues 2026 (value=7.6 million), 2027 (value=8 million)</br>
+    ii.Total Direct M&S Cost before reversals 2026 (value=4 million) 2027 (value=3 million)</br>
+    iii.Direct M&S Cost(MR-relevant) 2026 (value=4 million) 2027 (value=3 million)</br>
+    iv.Marketing Contribution before COGS 2026 (value=4 million) , 2027 (value=3 million)</br>
+    v.Strategic Product Charge(COGS) @30% 2026 (value=4 million) , 2027 (value=3 million)</br>
+    vi.Marketing Contribution after COGS 2026 (value=4 million) , 2027 (value=3 million)</br>
+    <button type="button" data-next="Question2">Yes</button>
+    <button type="button" data-next="Question3">No</button>
+    </br></br>
+    </br>
+     APPROVAL STEP 2: HA - COUNTRY HEALTH AUTHORITY APPROVAL
+
+    </br></br>
+   Phase III trial<button type="button" data-next="Question2">Yes</button>
+    <button type="button" data-next="Question3">No</button> 
+    <button type="button" data-next="Question2">Not Required</button>
+    </br>
+    APPROVAL from EU/USFDA <button type="button" data-next="Question2">Yes</button>
+    <button type="button" data-next="Question3">No</button></br>
+    Medical Rationale - is Unmet need is specified, value proposition of the molecule is stated and APPROVED by Country Medical Officer<button type="button" data-next="Question2">Yes</button>
+    <button type="button" data-next="Question3">No</button></br>
+    Site registration - Manufacturing unit from Germany set up/ process are done<button type="button" data-next="Question2">Yes</button>
+    <button type="button" data-next="Question3">No</button></br>
+    Dosier creation - when the above steps are also COMPLETED - Medical rationale, Phase III trial, unmet need, approval by EU/USFDA<button type="button" data-next="Question2">Yes</button>
+    <button type="button" data-next="Question3">No</button></br>
+    SEC meeting with HA HCPs should approve molecule proposal with medical rationale<button type="button" data-next="Question2">Yes</button>
+    <button type="button" data-next="Question3">No</button></br>
+    Are India patients included in phase III trial USFDA & EU approval for molecule.Yes = required, No= Not required<button type="button" data-next="Question2">Yes</button>
+    <button type="button" data-next="Question3">No</button></br>
+    </br></br>
+     APPROVAL STEP 3: PACKAGING
+     </br></br>
+     APPROVAL STEP 4: SUPPLY & CHAIN
+     </br></br>
+     APPROVAL STEP 5: PRELAUNCH  (Parallel Step)
+     </br></br></br><button type="button" data-next="Question3">Submit data </button></br></br></br>
+</div>
+<!-- <div id="Question2">
+    2.Preparation
+    <button type="button" data-next="Question4">Yes</button>
+    <button type="button" data-next="Question5">No</button>
+</div>
+<div id="Question3">
+    3.Total patient pool assess potential and forecast
+    <button type="button" data-next="Question6">Yes</button>
+    <button type="button" data-next="Question6">No</button>
+</div>
+<div id="Question4">
+    4.Pricing projection to prepare Business case
+    <button type="button" data-next="Question10">Yes</button>
+    <button type="button" data-next="Question10">No</button>
+</div> -->
